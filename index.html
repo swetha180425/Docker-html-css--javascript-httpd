@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎬 Movie Ticket Booking</h1>
+
+    <label>Select Movie</label>
+    <select id="movie">
+        <option value="200">Avengers - ₹200</option>
+        <option value="180">Pushpa 2 - ₹180</option>
+        <option value="250">Salaar - ₹250</option>
+        <option value="220">Leo - ₹220</option>
+    </select>
+
+    <label>Number of Tickets</label>
+    <input type="number" id="tickets" min="1" value="1">
+
+    <button onclick="bookTicket()">Book Now</button>
+
+    <div class="result" id="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
